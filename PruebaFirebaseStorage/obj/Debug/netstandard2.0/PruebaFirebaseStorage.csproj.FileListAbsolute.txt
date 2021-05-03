@@ -1,0 +1,15 @@
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\bin\Debug\netstandard2.0\PruebaFirebaseStorage.deps.json
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\bin\Debug\netstandard2.0\PruebaFirebaseStorage.dll
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\PruebaFirebaseStorage.csprojAssemblyReference.cache
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\PruebaFirebaseStorage.AssemblyInfoInputs.cache
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\PruebaFirebaseStorage.AssemblyInfo.cs
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\bin\Debug\netstandard2.0\ref\PruebaFirebaseStorage.dll
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\bin\Debug\netstandard2.0\PruebaFirebaseStorage.pdb
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\PruebaFirebaseStorage.dll
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\ref\PruebaFirebaseStorage.dll
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\PruebaFirebaseStorage.pdb
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\Descripcion.xaml.g.cs
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\PruebaFirebaseStorage.csproj.CoreCompileInputs.cache
+F:\carlo\Documents\Proyectos Visual Studio\PruebaFirebaseStorage\PruebaFirebaseStorage\obj\Debug\netstandard2.0\XamlC.stamp

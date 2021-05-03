@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
+             x:Class="PruebaFirebaseStorage.MainPage">
+  
+    <ScrollView>
+        <StackLayout>
+            <Button x:Name="Upload" Clicked="OnUploadClicked" Text="Upload data"/>
+            <Entry x:Name="productoid" Placeholder="id"/>
+            <Entry x:Name="nombre" Placeholder="nombre"/>
+            <Entry x:Name="precio" Placeholder="precio"/>
+            <Entry x:Name="descripcion" Placeholder="descripcion"/>
+            <Entry x:Name="imagen" Placeholder="imagen"/>
+            <Entry x:Name="Categoria" Placeholder="Categoria"/>
+            <Label Text="Best Sellers"/>
+            <RefreshView x:Name="refreshView" IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+                <CollectionView   x:Name="lstProductos" SelectionMode="Single" SelectionChanged="lstProductos_SelectionChanged">
+
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="2" />
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="10" Margin="12">
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="300" />
+                                    <RowDefinition Height="30" />
+                                </Grid.RowDefinitions>
+
+                                <ImageButton  Source="{Binding Imagen}"
+                                   Grid.Row="0"
+                                   Aspect="AspectFill"
+                                    />
+
+                                <StackLayout Grid.Row="1">
+
+                                    <Label x:Name="Identificador" Grid.Column="1"
+                                       VerticalOptions="Center"
+                                       Text="{Binding ProductoId}"
+                                       FontAttributes="Bold" />
+
+
+                                    <Label Text="{Binding Precio}"
+                                       Grid.Row="1"
+                                       Grid.Column="1"
+                                       VerticalOptions="Start"
+                                       FontAttributes="Italic" />
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                
+            </RefreshView>
+            <Label Text="Gala"/>
+            <CollectionView   x:Name="lstProductos2" SelectionMode="Single" SelectionChanged="lstProductos_SelectionChanged">
+
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10" Margin="12">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="300" />
+                                <RowDefinition Height="30" />
+                            </Grid.RowDefinitions>
+
+                            <ImageButton  Source="{Binding Imagen}"
+                                   Grid.Row="0"
+                                   Aspect="AspectFill"
+                                    />
+
+                            <StackLayout Grid.Row="1">
+
+                                <Label x:Name="Identificador" Grid.Column="1"
+                                       VerticalOptions="Center"
+                                       Text="{Binding ProductoId}"
+                                       FontAttributes="Bold" />
+
+
+                                <Label Text="{Binding Precio}"
+                                       Grid.Row="1"
+                                       Grid.Column="1"
+                                       VerticalOptions="Start"
+                                       FontAttributes="Italic" />
+                            </StackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
